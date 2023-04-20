@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<script>    
+
+    function pulaLinha() {
+           document.write("<br>");
+       }
+   
+    function mostra(frase) {
+           document.write(frase);
+           pulaLinha();
+    }
+
+        
+    //var calcula = 1
+    //while( calcula <=10) {
+      //  mostra(7 * calcula);
+        // calcula = calcula + 1 ;
+    //  }
+    //    espaço 1 = o inicializado da variável ; espaço 2 é a condição da repetição do multiplicador ; espaço3 é a condição de acrescer ao multiplicado
+    
+    for ( var calcula = 1; calcula <= 10; calcula++) {
+        
+        mostra(7 * calcula);
+    // Obs.: o incrimento de repetição "calcula =calcula + 1" pode ser substituido pela exmpressão ++ apos a variavel declarada.
+    // Exemplo: calcula++ 
+    }
+
+    mostra("fim");
+
+</script>
